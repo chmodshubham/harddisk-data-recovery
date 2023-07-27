@@ -1,4 +1,4 @@
-# Data Recovery from Harddisk
+# Data Recovery from SSD/Harddisk
 
 Recovering deleted files or folders from a server can be a complex task, especially if the server is not set up with a trash or recycle bin system. Here are some general steps you can follow:
 
