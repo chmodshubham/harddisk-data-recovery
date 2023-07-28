@@ -14,11 +14,11 @@ There are several file recovery tools available for Linux systems. One of the mo
 
 To install `extundelete`, use `sudo apt-get install extundelete`
 
-* **Identify the correct device**
+##### Identify the correct device
 
 Use the `lsblk` or `df` command to identify the device identifier of the hard disk or SSD.
 
-* **Unmount the device**
+##### Unmount the device
 
 Use the `umount` command to unmount the device. This is to prevent any further changes to the data on the device while we are trying to recover the deleted files.
 
@@ -29,11 +29,11 @@ umount /dev/sdb2
 
 ![image](https://github.com/ShubhamKumar89/hard-drive-backup/assets/97805339/15347b0b-85c4-4230-84a5-6e19755cf22f)
 
-* **Filesystem Corruption Check**
+##### Filesystem Corruption Check
 
 Run `fsck` on the filesystem with `sudo fsck /dev/sdb2` to fix any issues that `fsck` finds.
 
-* **Recover the data**
+##### Recover the data
 
  Use this command to recover a deleted directory:
 
